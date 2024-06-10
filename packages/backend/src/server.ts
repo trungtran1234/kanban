@@ -3,6 +3,7 @@ import listsRouter from './routes/lists';
 import itemsRouter from './routes/items';
 const { PrismaClient } = require('@prisma/client');
 
+
 const prisma = new PrismaClient();
 const app = express();
 const port = process.env.PORT || 3000;
